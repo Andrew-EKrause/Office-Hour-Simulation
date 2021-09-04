@@ -13,10 +13,10 @@ The simulation program takes data provided in an input file and creates a schedu
 • The professor's number of availalbe minutes reserved for office hours on Friday
 
 **Information regarding the students** </br>
-• The number of students
-• The name of each student
-• The type of visit that the student is going to offic hours for (**Q** for question, **D** for demo, **A** for advising)
-• The visit length for the student (in minutes)
+• The number of students </br>
+• The name of each student </br>
+• The type of visit that the student is going to offic hours for (**Q** for question, **D** for demo, **A** for advising) </br>
+• The visit length for the student (in minutes) </br>
 • The day(s) the student is available to visit the professor in office hours
 
 If you want to see an example of output for the simulation, see the `picture of the output with a FIFO queue implemented` below this description. The simulation uses different algorithms to create an output that shows what students the professor will see on a given day, how the professor is helping the student(s) on a given day, the number of students that visited the professor in his office hours on a given day, the number of students who waited to visit the professor in his office hours on a given day, the number of minutes spent with students in a given day, and the number of minutes students waited to attend office hours with the professor in a given day. At the end of the printed output, summary statistics are given to show the total number of students that the professor met with, the total amount of time taken in office hours, and the total amount of time that students waited to visit the professor in office hours for the week. </br>
