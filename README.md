@@ -5,7 +5,7 @@
 ADD DESCRIPTION HERE...
 
 ###### Example of Program Output on Terminal using a FIFO Queue
-SCREENSHOT WOULD GO HERE.
+<img width="569" alt="exampleoutput" src="https://user-images.githubusercontent.com/57727121/132105157-df2e45a4-fd5b-48c5-b379-4426da2b3737.png">
 <p>&nbsp;</p>
 
 **Resources for Project:**
@@ -36,8 +36,9 @@ SCREENSHOT WOULD GO HERE.
     -Example input file are provided in the forms of infile1.txt, infile2.txt, and infile3.txt. Each of these files can be passed through the program when it is run as the second command line argument.
 11. Try using the other argument flags, "-a", "-d", and "-q", when you run the office hour simulation program. Also, try running the program using the other files, infile2.txt and infile3.txt. To view the text files, you can open them using a text editor. You can also type the `cat` command and then the name of the text file to view the contents of the text file on your terminal (Example: `cat infile1.txt` lets you see the file contents of infile1.txt).
 12. To learn more about Makefiles, and priority queues, visit the following links below.
-      -Makefiles: https://makefiletutorial.com/
+      -Makefiles: https://makefiletutorial.com/ </br>
       -Priority queues: https://www.geeksforgeeks.org/queue-data-structure/
+13. NOTE: To recompile your program, if neccessary, first type `make clean` to clear the compiled files. Then type `make simulator-final` to recompile everything.
 
 <p>&nbsp;</p>
 
