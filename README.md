@@ -1,8 +1,27 @@
 # *Professor Office Hour Simulation*
 
 ## Description
-**_Simulation of Professor's Office Hour Schedule in C_** <br/>
-The simulation program takes data provided in an input file and creates a schedule for a professor. The information provided in the input file lists students who are visiting the professor in his office hours as well as what...
+**_Simulation of Professor's Office Hour Schedule_** <br/>
+The simulation program takes data provided in an input file and creates a schedule for a professor's office hours. The information provided in the input includes the following information: </br>
+
+**Information regarding the professor** </br>
+• The name of the professor
+• The professor's number of availalbe minutes reserved for office hours on Monday
+• The professor's number of availalbe minutes reserved for office hours on Tuesday
+• The professor's number of availalbe minutes reserved for office hours on Wednesday
+• The professor's number of availalbe minutes reserved for office hours on Thursday
+• The professor's number of availalbe minutes reserved for office hours on Friday
+
+**Information regarding the students** </br>
+• Number of students (int)
+• For each student, the following is given:
+– Name of the student (char *)
+– Type of visit (Q for question, D for demo, A for advising)
+– Visit length in minutes (int)
+– Days the student is available (one character per day, with R representing Thursday)
+
+If you want to see an example of output for the simulation, see the `picture of the output with a FIFO queue implemented` below this description. The simulation uses different algorithms to create an output that shows what students the professor will see on a given day, how the professor is helping the student(s) on a given day, the number of students that visited the professor in his office hours on a given day, the number of students who waited to visit the professor in his office hours on a given day, the number of minutes spent with students in a given day, and the number of minutes students waited to attend office hours with the professor in a given day. At the end of the printed output, summary statistics are given to show the total number of students that the professor met with, the total amount of time taken in office hours, and the total amount of time that students waited to visit the professor in office hours for the week. </br>
+This program was written using the C programming languge. The simulation program was made as a final project for one of my Computer Science classes (CS 270) at the University of Wisconsin - La Crosse.
 
 ###### Example of Program Output on Terminal using a FIFO Queue
 <img width="569" alt="exampleoutput" src="https://user-images.githubusercontent.com/57727121/132105157-df2e45a4-fd5b-48c5-b379-4426da2b3737.png">
