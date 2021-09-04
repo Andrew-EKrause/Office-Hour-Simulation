@@ -17,7 +17,7 @@ SCREENSHOT WOULD GO HERE.
 1. First, make sure that you have your terminal open. Information about your terminal can be found here:<br/>
    -Mac: https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac<br/>
    -Windows: https://docs.microsoft.com/en-us/windows/terminal/
-2. Next, check if you have the C compiler already installed in your system. If you are using the UNIX / Linux operating systems in your terminal, then you likely have a C compiler called GCC in your system. To determine if you already have GCC installed in your system, type `cc` or `gcc` in your terminal. The C programming language is already built into your system (regardless of what computer / operating system you have). For more information on C and C compilers, click the link below. <br/>
+2. Next, check if you have the C compiler already installed in your system. If you are using the UNIX / Linux operating systems in your terminal, then you likely have a C compiler called GCC in your system. To determine if you already have GCC installed in your system, type `cc --version` or `gcc --version` in your terminal. Information regarding the version of your C Compiler will show on the terminal after you enter the version commands. The C programming language is already built into your system (regardless of what computer / operating system you have). For more information on C and C compilers, click the link below. <br/>
    -C Compiler Information: https://www.w3schools.in/c-tutorial/install/
 3. On this repository page, go to the "Code" button and click the "Download Zip" option.
 4. Go to your "Downloads" section on your computer and place the zip file in a folder/location other than "Downloads".
