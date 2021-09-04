@@ -4,7 +4,7 @@
 **_Simulation of Professor's Office Hour Schedule in C_** <br/>
 ADD DESCRIPTION HERE...
 
-###### MAYBE ADD SCREENSHOT
+###### Example of Program Output on Terminal using a FIFO Queue
 SCREENSHOT WOULD GO HERE.
 <p>&nbsp;</p>
 
@@ -26,8 +26,8 @@ SCREENSHOT WOULD GO HERE.
    -Linux and Max: http://mally.stanford.edu/~sr/computing/basic-unix.html <br/>
    -Windows: https://blogs.umass.edu/Techbytes/2014/11/14/file-navigation-with-windows-command-prompt/
 7. Inside of the "Office-Hour-Simulation-master" folder on your terminal, navigate into the "office-simulation" folder.
-8. Inside of the "office-simulation" folder, type the following command: `make`. We are using the C compiler along with a Makefile that was provided in this project to compile the code. An executable file is created called "simulator".
-9. After typing the command above, type this command: `./simulator -f infile1.txt`. Here we are running the compiled version of the program (the executable file), which we named "simulation". The argument flag listed after the executable file tells the program what kind of algorithm to run in the program. We also pass a text file, included in this project, into the program to be read and analyzed.
+8. Inside of the "office-simulation" folder, type the following command: `make simulator-final`. We are using the C compiler along with a Makefile that was provided in this project to compile the code, which is why we type "make" in the command. As a result, an executable file is created called "simulator".
+9. After typing the command above, type this command: `./simulator -f infile1.txt`. Here we are running the compiled version of the program (the executable file), which we named "simulation". The argument flag listed after the executable file tells the program what kind of algorithm to run in the program (A FIFO queue). We also pass a text file, included in this project, into the program to be read and analyzed.
 10. After running the command in the previous step, output should be printed out on your terminal window. Information about other command arguments you can use is provided below.
     -To indicate that FIFO is being used, a "-f" flag is used as the first command-line argument. <br/>
     -To indicate that advising appointments are being prioritized, a "-a" flag is used as the first command-line argument. <br/>
@@ -35,6 +35,9 @@ SCREENSHOT WOULD GO HERE.
     -To indicate that project questions are prioritized, a "-q" flag is used as the first command-line argument. <br/>
     -Example input file are provided in the forms of infile1.txt, infile2.txt, and infile3.txt. Each of these files can be passed through the program when it is run as the second command line argument.
 11. Try using the other argument flags, "-a", "-d", and "-q", when you run the office hour simulation program. Also, try running the program using the other files, infile2.txt and infile3.txt. To view the text files, you can open them using a text editor. You can also type the `cat` command and then the name of the text file to view the contents of the text file on your terminal (Example: `cat infile1.txt` lets you see the file contents of infile1.txt).
+12. To learn more about Makefiles, and priority queues, visit the following links below.
+      -Makefiles: https://makefiletutorial.com/
+      -Priority queues: https://www.geeksforgeeks.org/queue-data-structure/
 
 <p>&nbsp;</p>
 
